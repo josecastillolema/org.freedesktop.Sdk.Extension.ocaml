@@ -2,7 +2,7 @@
 
 This extension contains various components of the [OCaml](https://ocaml.org/) stable toolchain.
 
-The OCaml Platform Tools, which includes the build system Dune, complete the OCaml development environment and provide a nice out of the box developer experience (dune dune-release merlin ocaml-lsp-server ocamlformat ocp-indent utop).
+The [OCaml Platform Tools](https://ocaml.org/docs/platform), which includes the [Dune build system](https://dune.build/), complete the OCaml development environment and provide a nice out of the box developer experience (`dune dune-release merlin ocaml-lsp-server ocamlformat ocp-indent utop`).
 
 ## Debugging
 
@@ -50,6 +50,16 @@ $ ocaml --version
 The OCaml toplevel, version 5.1.0
 
 $ opam install -y PKG  
+```
+
+Alternativelly, you can inicialize a new opam environment:
+```
+$ opam init --disable-sandboxing --root $XDG_DATA_HOME/ocaml
+$ eval $(opam env --root=$XDG_DATA_HOME/ocaml --switch=default --set-root --set-switch)
+
+$ opam switch
+#  switch   compiler     description
+→  default  ocaml.5.1.0  default
 ```
 
 ## Source files generation

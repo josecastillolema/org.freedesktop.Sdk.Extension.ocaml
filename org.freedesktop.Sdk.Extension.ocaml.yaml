@@ -18,6 +18,17 @@ build-options:
     OPAM_SWITCH_PREFIX: /usr/lib/sdk/ocaml/switch/_opam
 
 modules:
+  - name: bwrap
+    buildsystem: autotools
+    build-options:
+      prefix: ${FLATPAK_DEST}
+    sources:
+      - type: git
+        branch: main
+        url: https://github.com/containers/bubblewrap
+    post-install:
+      - bwrap --version 
+
   - name: rsync
     buildsystem: autotools
     config-opts:
