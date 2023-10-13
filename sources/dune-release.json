@@ -1,0 +1,235 @@
+[
+  {
+    "type": "file",
+    "url": "https://github.com/tarides/dune-release/releases/download/2.0.0/dune-release-2.0.0.tbz",
+    "name": "dune-release.2.0.0",
+    "sha256": "bbc4e06a87836832de9eedecd4a9bf2a1f3958732dbd4cbb0bb43e398e7cf12b",
+    "dest": "cache/sha256/bb",
+    "dest-filename": "bbc4e06a87836832de9eedecd4a9bf2a1f3958732dbd4cbb0bb43e398e7cf12b"
+  },
+  {
+    "type": "file",
+    "url": "https://erratique.ch/software/astring/releases/astring-0.8.5.tbz",
+    "name": "astring.0.8.5",
+    "md5": "e148907c24157d1df43bec89b58b3ec8",
+    "dest": "cache/md5/e1",
+    "dest-filename": "e148907c24157d1df43bec89b58b3ec8"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/ocaml/ocamlbuild/archive/refs/tags/0.14.2.tar.gz",
+    "name": "ocamlbuild.0.14.2",
+    "md5": "2f407fadd57b073155a6aead887d9676",
+    "dest": "cache/md5/2f",
+    "dest-filename": "2f407fadd57b073155a6aead887d9676"
+  },
+  {
+    "type": "file",
+    "url": "http://download.camlcity.org/download/findlib-1.9.6.tar.gz",
+    "name": "ocamlfind.1.9.6",
+    "md5": "96c6ee50a32cca9ca277321262dbec57",
+    "dest": "cache/md5/96",
+    "dest-filename": "96c6ee50a32cca9ca277321262dbec57"
+  },
+  {
+    "type": "file",
+    "url": "https://erratique.ch/software/topkg/releases/topkg-1.0.7.tbz",
+    "name": "topkg.1.0.7",
+    "sha512": "09e59f1759bf4db8471f02d0aefd8db602b44932a291c05c312b1423796e7a15d1598d3c62a0cec7f083eff8e410fac09363533dc4bd2120914bb9664efea535",
+    "dest": "cache/sha512/09",
+    "dest-filename": "09e59f1759bf4db8471f02d0aefd8db602b44932a291c05c312b1423796e7a15d1598d3c62a0cec7f083eff8e410fac09363533dc4bd2120914bb9664efea535"
+  },
+  {
+    "type": "file",
+    "url": "https://erratique.ch/software/bos/releases/bos-0.2.1.tbz",
+    "name": "bos.0.2.1",
+    "sha512": "8daeb8a4c2dd1f2460f6274ada19f4f1b6ebe875ff83a938c93418ce0e6bdb74b8afc5c9a7d410c1c9df2dad030e4fa276b6ed2da580639484e8b5bc92610b1d",
+    "dest": "cache/sha512/8d",
+    "dest-filename": "8daeb8a4c2dd1f2460f6274ada19f4f1b6ebe875ff83a938c93418ce0e6bdb74b8afc5c9a7d410c1c9df2dad030e4fa276b6ed2da580639484e8b5bc92610b1d"
+  },
+  {
+    "type": "file",
+    "url": "https://erratique.ch/software/fmt/releases/fmt-0.9.0.tbz",
+    "name": "fmt.0.9.0",
+    "sha512": "66cf4b8bb92232a091dfda5e94d1c178486a358cdc34b1eec516d48ea5acb6209c0dfcb416f0c516c50ddbddb3c94549a45e4a6d5c5fd1c81d3374dec823a83b",
+    "dest": "cache/sha512/66",
+    "dest-filename": "66cf4b8bb92232a091dfda5e94d1c178486a358cdc34b1eec516d48ea5acb6209c0dfcb416f0c516c50ddbddb3c94549a45e4a6d5c5fd1c81d3374dec823a83b"
+  },
+  {
+    "type": "file",
+    "url": "https://erratique.ch/software/fpath/releases/fpath-0.7.3.tbz",
+    "name": "fpath.0.7.3",
+    "md5": "0740b530e8fed5b0adc5eee8463cfc2f",
+    "dest": "cache/md5/07",
+    "dest-filename": "0740b530e8fed5b0adc5eee8463cfc2f"
+  },
+  {
+    "type": "file",
+    "url": "https://erratique.ch/software/logs/releases/logs-0.7.0.tbz",
+    "name": "logs.0.7.0",
+    "md5": "2bf021ca13331775e33cf34ab60246f7",
+    "dest": "cache/md5/2b",
+    "dest-filename": "2bf021ca13331775e33cf34ab60246f7"
+  },
+  {
+    "type": "file",
+    "url": "https://erratique.ch/software/rresult/releases/rresult-0.7.0.tbz",
+    "name": "rresult.0.7.0",
+    "sha512": "f1bb631c986996388e9686d49d5ae4d8aaf14034f6865c62a88fb58c48ce19ad2eb785327d69ca27c032f835984e0bd2efd969b415438628a31f3e84ec4551d3",
+    "dest": "cache/sha512/f1",
+    "dest-filename": "f1bb631c986996388e9686d49d5ae4d8aaf14034f6865c62a88fb58c48ce19ad2eb785327d69ca27c032f835984e0bd2efd969b415438628a31f3e84ec4551d3"
+  },
+  {
+    "type": "file",
+    "url": "https://erratique.ch/software/cmdliner/releases/cmdliner-1.2.0.tbz",
+    "name": "cmdliner.1.2.0",
+    "sha512": "6fcd6a59a6fbc6986b1aecdc3e4ce7a0dc43c65a16b427d6caa5504b10b51384f6b0bc703af646b09f5f1caeb6827b37d4480ce350ca8006204c850785f2810b",
+    "dest": "cache/sha512/6f",
+    "dest-filename": "6fcd6a59a6fbc6986b1aecdc3e4ce7a0dc43c65a16b427d6caa5504b10b51384f6b0bc703af646b09f5f1caeb6827b37d4480ce350ca8006204c850785f2810b"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/rgrinberg/curly/releases/download/0.3.0/curly-0.3.0.tbz",
+    "name": "curly.0.3.0",
+    "sha256": "427fcf28134e70cb77764d9feee243f31d32a38447a1b5d28d341c93b7dc5d3c",
+    "dest": "cache/sha256/42",
+    "dest-filename": "427fcf28134e70cb77764d9feee243f31d32a38447a1b5d28d341c93b7dc5d3c"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/ocaml/dune/releases/download/3.10.0/dune-3.10.0.tbz",
+    "name": "dune.3.10.0",
+    "sha256": "9ff03384a98a8df79852cc674f0b4738ba8aec17029b6e2eeb514f895e710355",
+    "dest": "cache/sha256/9f",
+    "dest-filename": "9ff03384a98a8df79852cc674f0b4738ba8aec17029b6e2eeb514f895e710355"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/janestreet/result/releases/download/1.5/result-1.5.tbz",
+    "name": "result.1.5",
+    "md5": "1b82dec78849680b49ae9a8a365b831b",
+    "dest": "cache/md5/1b",
+    "dest-filename": "1b82dec78849680b49ae9a8a365b831b"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/ocaml/odoc/releases/download/2.2.1/odoc-2.2.1.tbz",
+    "name": "odoc.2.2.1",
+    "sha256": "1786e53bf0824fe1c7c7b81d2a7d846846a5d11677969e6396361f77a3816803",
+    "dest": "cache/sha256/17",
+    "dest-filename": "1786e53bf0824fe1c7c7b81d2a7d846846a5d11677969e6396361f77a3816803"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/ocaml-community/cppo/archive/v1.6.9.tar.gz",
+    "name": "cppo.1.6.9",
+    "md5": "d23ffe85ac7dc8f0afd1ddf622770d09",
+    "dest": "cache/md5/d2",
+    "dest-filename": "d23ffe85ac7dc8f0afd1ddf622770d09"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/ocaml-doc/odoc-parser/releases/download/2.0.0/odoc-parser-2.0.0.tbz",
+    "name": "odoc-parser.2.0.0",
+    "sha256": "407919fbb0eb95761d6fc6ec6777628d94aa1907343bdca678b1880bafb33922",
+    "dest": "cache/sha256/40",
+    "dest-filename": "407919fbb0eb95761d6fc6ec6777628d94aa1907343bdca678b1880bafb33922"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/ocaml/camlp-streams/archive/v5.0.1.tar.gz",
+    "name": "camlp-streams.5.0.1",
+    "md5": "afc874b25f7a1f13e8f5cfc1182b51a7",
+    "dest": "cache/md5/af",
+    "dest-filename": "afc874b25f7a1f13e8f5cfc1182b51a7"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/ocsigen/tyxml/releases/download/4.5.0/tyxml-4.5.0.tbz",
+    "name": "tyxml.4.5.0",
+    "sha256": "c69accef5df4dd89d38f6aa0baad01e8fda4e9e98bb7dad61bec1452c5716068",
+    "dest": "cache/sha256/c6",
+    "dest-filename": "c69accef5df4dd89d38f6aa0baad01e8fda4e9e98bb7dad61bec1452c5716068"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/ocaml/ocaml-re/releases/download/1.11.0/re-1.11.0.tbz",
+    "name": "re.1.11.0",
+    "sha256": "01fc244780c0f6be72ae796b1fb750f367de18624fd75d07ee79782ed6df8d4f",
+    "dest": "cache/sha256/01",
+    "dest-filename": "01fc244780c0f6be72ae796b1fb750f367de18624fd75d07ee79782ed6df8d4f"
+  },
+  {
+    "type": "file",
+    "url": "https://erratique.ch/software/uutf/releases/uutf-1.0.3.tbz",
+    "name": "uutf.1.0.3",
+    "sha512": "50cc4486021da46fb08156e9daec0d57b4ca469b07309c508d5a9a41e9dbcf1f32dec2ed7be027326544453dcaf9c2534919395fd826dc7768efc6cc4bfcc9f8",
+    "dest": "cache/sha512/50",
+    "dest-filename": "50cc4486021da46fb08156e9daec0d57b4ca469b07309c508d5a9a41e9dbcf1f32dec2ed7be027326544453dcaf9c2534919395fd826dc7768efc6cc4bfcc9f8"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/ocaml/opam/archive/refs/tags/2.1.5.tar.gz",
+    "name": "opam-core.2.1.5",
+    "md5": "58f9fe5045c00c2a022a5b65d36be868",
+    "dest": "cache/md5/58",
+    "dest-filename": "58f9fe5045c00c2a022a5b65d36be868"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/backtracking/ocamlgraph/releases/download/2.1.0/ocamlgraph-2.1.0.tbz",
+    "name": "ocamlgraph.2.1.0",
+    "sha256": "0f962c36f9253df2393955af41b074b6a426b2f92a9def795b2005b57d302d65",
+    "dest": "cache/sha256/0f",
+    "dest-filename": "0f962c36f9253df2393955af41b074b6a426b2f92a9def795b2005b57d302d65"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/ocaml/stdlib-shims/releases/download/0.3.0/stdlib-shims-0.3.0.tbz",
+    "name": "stdlib-shims.0.3.0",
+    "sha256": "babf72d3917b86f707885f0c5528e36c63fccb698f4b46cf2bab5c7ccdd6d84a",
+    "dest": "cache/sha256/ba",
+    "dest-filename": "babf72d3917b86f707885f0c5528e36c63fccb698f4b46cf2bab5c7ccdd6d84a"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/ocaml/opam-file-format/archive/refs/tags/2.1.6.tar.gz",
+    "name": "opam-file-format.2.1.6",
+    "md5": "706ce5fc3e77db746a4c8b11d79cefef",
+    "dest": "cache/md5/70",
+    "dest-filename": "706ce5fc3e77db746a4c8b11d79cefef"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/ocaml/opam/archive/refs/tags/2.1.5.tar.gz",
+    "name": "opam-format.2.1.5",
+    "md5": "58f9fe5045c00c2a022a5b65d36be868",
+    "dest": "cache/md5/58",
+    "dest-filename": "58f9fe5045c00c2a022a5b65d36be868"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/ocaml/opam/archive/refs/tags/2.1.5.tar.gz",
+    "name": "opam-state.2.1.5",
+    "md5": "58f9fe5045c00c2a022a5b65d36be868",
+    "dest": "cache/md5/58",
+    "dest-filename": "58f9fe5045c00c2a022a5b65d36be868"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/ocaml/opam/archive/refs/tags/2.1.5.tar.gz",
+    "name": "opam-repository.2.1.5",
+    "md5": "58f9fe5045c00c2a022a5b65d36be868",
+    "dest": "cache/md5/58",
+    "dest-filename": "58f9fe5045c00c2a022a5b65d36be868"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/ocaml-community/yojson/releases/download/2.1.0/yojson-2.1.0.tbz",
+    "name": "yojson.2.1.0",
+    "sha256": "9fcb1ff2db58ab259f9228796b0ada4794eae97177b1833371380c4e4f90b15d",
+    "dest": "cache/sha256/9f",
+    "dest-filename": "9fcb1ff2db58ab259f9228796b0ada4794eae97177b1833371380c4e4f90b15d"
+  }
+]
+

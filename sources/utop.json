@@ -1,0 +1,195 @@
+[
+  {
+    "type": "file",
+    "url": "https://github.com/ocaml-community/utop/releases/download/2.13.1/utop-2.13.1.tbz",
+    "name": "utop-2.13.1",
+    "sha256": "b04ec2a394d1a6a28a79444c58f66eab77b7f74401f4714aa6e6f1c2125a6ffd",
+    "dest": "cache/sha256/b0",
+    "dest-filename": "b04ec2a394d1a6a28a79444c58f66eab77b7f74401f4714aa6e6f1c2125a6ffd"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/ocaml-community/cppo/archive/v1.6.9.tar.gz",
+    "name": "cppo-1.6.9",
+    "md5": "d23ffe85ac7dc8f0afd1ddf622770d09",
+    "dest": "cache/md5/d2",
+    "dest-filename": "d23ffe85ac7dc8f0afd1ddf622770d09"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/ocaml/dune/releases/download/3.10.0/dune-3.10.0.tbz",
+    "name": "dune-3.10.0",
+    "sha256": "9ff03384a98a8df79852cc674f0b4738ba8aec17029b6e2eeb514f895e710355",
+    "dest": "cache/sha256/9f",
+    "dest-filename": "9ff03384a98a8df79852cc674f0b4738ba8aec17029b6e2eeb514f895e710355"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/ocaml-community/lambda-term/archive/refs/tags/3.3.2.tar.gz",
+    "name": "lambda-term-3.3.2",
+    "sha512": "78648768644058337e22c79cf1fbb1a36472b24f11b1dc0461fc38419be6ec01b02d8d0ac45fed0bc99f91ba4c0f19d3bda113e834e064bee973b734527b9766",
+    "dest": "cache/sha512/78",
+    "dest-filename": "78648768644058337e22c79cf1fbb1a36472b24f11b1dc0461fc38419be6ec01b02d8d0ac45fed0bc99f91ba4c0f19d3bda113e834e064bee973b734527b9766"
+  },
+  {
+    "type": "file",
+    "url": "https://erratique.ch/software/logs/releases/logs-0.7.0.tbz",
+    "name": "logs-0.7.0",
+    "md5": "2bf021ca13331775e33cf34ab60246f7",
+    "dest": "cache/md5/2b",
+    "dest-filename": "2bf021ca13331775e33cf34ab60246f7"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/ocaml/ocamlbuild/archive/refs/tags/0.14.2.tar.gz",
+    "name": "ocamlbuild-0.14.2",
+    "md5": "2f407fadd57b073155a6aead887d9676",
+    "dest": "cache/md5/2f",
+    "dest-filename": "2f407fadd57b073155a6aead887d9676"
+  },
+  {
+    "type": "file",
+    "url": "http://download.camlcity.org/download/findlib-1.9.6.tar.gz",
+    "name": "ocamlfind-1.9.6",
+    "md5": "96c6ee50a32cca9ca277321262dbec57",
+    "dest": "cache/md5/96",
+    "dest-filename": "96c6ee50a32cca9ca277321262dbec57"
+  },
+  {
+    "type": "file",
+    "url": "https://erratique.ch/software/topkg/releases/topkg-1.0.7.tbz",
+    "name": "topkg-1.0.7",
+    "sha512": "09e59f1759bf4db8471f02d0aefd8db602b44932a291c05c312b1423796e7a15d1598d3c62a0cec7f083eff8e410fac09363533dc4bd2120914bb9664efea535",
+    "dest": "cache/sha512/09",
+    "dest-filename": "09e59f1759bf4db8471f02d0aefd8db602b44932a291c05c312b1423796e7a15d1598d3c62a0cec7f083eff8e410fac09363533dc4bd2120914bb9664efea535"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/ocsigen/lwt/archive/refs/tags/5.7.0.tar.gz",
+    "name": "lwt-5.7.0",
+    "md5": "737039d29d45b2d2b35db6931c8d75c6",
+    "dest": "cache/md5/73",
+    "dest-filename": "737039d29d45b2d2b35db6931c8d75c6"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/ocaml/dune/releases/download/3.10.0/dune-3.10.0.tbz",
+    "name": "dune-configurator-3.10.0",
+    "sha256": "9ff03384a98a8df79852cc674f0b4738ba8aec17029b6e2eeb514f895e710355",
+    "dest": "cache/sha256/9f",
+    "dest-filename": "9ff03384a98a8df79852cc674f0b4738ba8aec17029b6e2eeb514f895e710355"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/ocaml-dune/csexp/releases/download/1.5.2/csexp-1.5.2.tbz",
+    "name": "csexp-1.5.2",
+    "sha256": "1a14dd04bb4379a41990248550628c77913a9c07f3c35c1370b6960e697787ff",
+    "dest": "cache/sha256/1a",
+    "dest-filename": "1a14dd04bb4379a41990248550628c77913a9c07f3c35c1370b6960e697787ff"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/OCamlPro/ocplib-endian/archive/refs/tags/1.2.tar.gz",
+    "name": "ocplib-endian-1.2",
+    "md5": "8d5492eeb7c6815ade72a7415ea30949",
+    "dest": "cache/md5/8d",
+    "dest-filename": "8d5492eeb7c6815ade72a7415ea30949"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/ocsigen/lwt/archive/5.6.0.tar.gz",
+    "name": "lwt_react-1.2.0",
+    "md5": "e63979ee40a80d5b9e9e5545f33323b4",
+    "dest": "cache/md5/e6",
+    "dest-filename": "e63979ee40a80d5b9e9e5545f33323b4"
+  },
+  {
+    "type": "file",
+    "url": "https://erratique.ch/software/react/releases/react-1.2.2.tbz",
+    "name": "react-1.2.2",
+    "sha512": "18cdd544d484222ba02db6bd9351571516532e7a1c107b59bbe39193837298f5c745eab6754f8bc6ff125b387be7018c6d6e6ac99f91925a5e4f53af688522b1",
+    "dest": "cache/sha512/18",
+    "dest-filename": "18cdd544d484222ba02db6bd9351571516532e7a1c107b59bbe39193837298f5c745eab6754f8bc6ff125b387be7018c6d6e6ac99f91925a5e4f53af688522b1"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/kandu/mew_vi/archive/0.5.0.tar.gz",
+    "name": "mew_vi-0.5.0",
+    "md5": "341e9a9a20383641015bf503952906bc",
+    "dest": "cache/md5/34",
+    "dest-filename": "341e9a9a20383641015bf503952906bc"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/kandu/mew/archive/0.1.0.tar.gz",
+    "name": "mew-0.1.0",
+    "md5": "2298149d1415cd804ab4e01f01ea10a0",
+    "dest": "cache/md5/22",
+    "dest-filename": "2298149d1415cd804ab4e01f01ea10a0"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/janestreet/result/releases/download/1.5/result-1.5.tbz",
+    "name": "result-1.5",
+    "md5": "1b82dec78849680b49ae9a8a365b831b",
+    "dest": "cache/md5/1b",
+    "dest-filename": "1b82dec78849680b49ae9a8a365b831b"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/kandu/trie/archive/1.0.0.tar.gz",
+    "name": "trie-1.0.0",
+    "md5": "84519b5f8bd92490bfc68a52f706ba14",
+    "dest": "cache/md5/84",
+    "dest-filename": "84519b5f8bd92490bfc68a52f706ba14"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/ocaml-community/zed/archive/refs/tags/3.2.3.tar.gz",
+    "name": "zed-3.2.3",
+    "sha512": "637f75129550f6459417549d44bed16bdc62721d2e9e0c6bb5bfab30c5bc6478de15faece8c091b56f238375cb79a7bc176375400e543120bb31d7ea626b7c5b",
+    "dest": "cache/sha512/63",
+    "dest-filename": "637f75129550f6459417549d44bed16bdc62721d2e9e0c6bb5bfab30c5bc6478de15faece8c091b56f238375cb79a7bc176375400e543120bb31d7ea626b7c5b"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/ocaml/uchar/releases/download/v0.0.2/uchar-0.0.2.tbz",
+    "name": "uchar-0.0.2",
+    "md5": "c9ba2c738d264c420c642f7bb1cf4a36",
+    "dest": "cache/md5/c9",
+    "dest-filename": "c9ba2c738d264c420c642f7bb1cf4a36"
+  },
+  {
+    "type": "file",
+    "url": "https://erratique.ch/software/uucp/releases/uucp-15.1.0.tbz",
+    "name": "uucp-15.1.0",
+    "sha512": "998f94fadb72357b15a3042a3d11c31b3e16f281822673f2defdd515cd1394d55de1817628be8bd5c030175f9e62c53630d4139a1c0253800f9fb898b0f11364",
+    "dest": "cache/sha512/99",
+    "dest-filename": "998f94fadb72357b15a3042a3d11c31b3e16f281822673f2defdd515cd1394d55de1817628be8bd5c030175f9e62c53630d4139a1c0253800f9fb898b0f11364"
+  },
+  {
+    "type": "file",
+    "url": "https://erratique.ch/software/uuseg/releases/uuseg-15.1.0.tbz",
+    "name": "uuseg-15.1.0",
+    "sha512": "1e9460dc5a856c985d40c61fd1560bdfdb8bbaf8d7430405814589b47d4a7f7869658d1e3198c7a9132412e9b4b85402ceb4bda5040da426b69e9aef4222a23a",
+    "dest": "cache/sha512/1e",
+    "dest-filename": "1e9460dc5a856c985d40c61fd1560bdfdb8bbaf8d7430405814589b47d4a7f7869658d1e3198c7a9132412e9b4b85402ceb4bda5040da426b69e9aef4222a23a"
+  },
+  {
+    "type": "file",
+    "url": "https://erratique.ch/software/uutf/releases/uutf-1.0.3.tbz",
+    "name": "uutf-1.0.3",
+    "sha512": "50cc4486021da46fb08156e9daec0d57b4ca469b07309c508d5a9a41e9dbcf1f32dec2ed7be027326544453dcaf9c2534919395fd826dc7768efc6cc4bfcc9f8",
+    "dest": "cache/sha512/50",
+    "dest-filename": "50cc4486021da46fb08156e9daec0d57b4ca469b07309c508d5a9a41e9dbcf1f32dec2ed7be027326544453dcaf9c2534919395fd826dc7768efc6cc4bfcc9f8"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/ocaml/dune/releases/download/3.10.0/dune-3.10.0.tbz",
+    "name": "xdg-3.10.0",
+    "sha256": "9ff03384a98a8df79852cc674f0b4738ba8aec17029b6e2eeb514f895e710355",
+    "dest": "cache/sha256/9f",
+    "dest-filename": "9ff03384a98a8df79852cc674f0b4738ba8aec17029b6e2eeb514f895e710355"
+  }
+]
+

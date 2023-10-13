@@ -1,0 +1,66 @@
+[
+  {
+    "type": "file",
+    "url": "https://github.com/ocaml/merlin/releases/download/v4.10-500/merlin-4.10-500.tbz",
+    "name": "merlin.4.10-500",
+    "sha256": "9bdf90cfc0d3f78c8d4b0a5a99354b40a2121ed4550569d90f7b7fcb2ba3499d",
+    "dest": "cache/sha256/9b",
+    "dest-filename": "9bdf90cfc0d3f78c8d4b0a5a99354b40a2121ed4550569d90f7b7fcb2ba3499d"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/ocaml/merlin/releases/download/v4.9-414/merlin-4.9-414.tbz",
+    "name": "dot-merlin-reader.4.9",
+    "sha256": "e23fc47813591269ff9d27c820988e520a662c89dd0af7ea652b21517499cbfd",
+    "dest": "cache/sha256/e2",
+    "dest-filename": "e23fc47813591269ff9d27c820988e520a662c89dd0af7ea652b21517499cbfd"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/ocaml/dune/releases/download/3.10.0/dune-3.10.0.tbz",
+    "name": "dune.3.10.0",
+    "sha256": "9ff03384a98a8df79852cc674f0b4738ba8aec17029b6e2eeb514f895e710355",
+    "dest": "cache/sha256/9f",
+    "dest-filename": "9ff03384a98a8df79852cc674f0b4738ba8aec17029b6e2eeb514f895e710355"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/ocaml/merlin/releases/download/v4.10-500/merlin-4.10-500.tbz",
+    "name": "merlin-lib.4.10-500",
+    "sha256": "9bdf90cfc0d3f78c8d4b0a5a99354b40a2121ed4550569d90f7b7fcb2ba3499d",
+    "dest": "cache/sha256/9b",
+    "dest-filename": "9bdf90cfc0d3f78c8d4b0a5a99354b40a2121ed4550569d90f7b7fcb2ba3499d"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/ocaml-dune/csexp/releases/download/1.5.2/csexp-1.5.2.tbz",
+    "name": "csexp.1.5.2",
+    "sha256": "1a14dd04bb4379a41990248550628c77913a9c07f3c35c1370b6960e697787ff",
+    "dest": "cache/sha256/1a",
+    "dest-filename": "1a14dd04bb4379a41990248550628c77913a9c07f3c35c1370b6960e697787ff"
+  },
+  {
+    "type": "file",
+    "url": "http://download.camlcity.org/download/findlib-1.9.6.tar.gz",
+    "name": "ocamlfind.1.9.6",
+    "md5": "96c6ee50a32cca9ca277321262dbec57",
+    "dest": "cache/md5/96",
+    "dest-filename": "96c6ee50a32cca9ca277321262dbec57"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/ocaml-community/yojson/releases/download/2.1.0/yojson-2.1.0.tbz",
+    "name": "yojson.2.1.0",
+    "sha256": "9fcb1ff2db58ab259f9228796b0ada4794eae97177b1833371380c4e4f90b15d",
+    "dest": "cache/sha256/9f",
+    "dest-filename": "9fcb1ff2db58ab259f9228796b0ada4794eae97177b1833371380c4e4f90b15d"
+  },
+  {
+    "type": "file",
+    "url": "https://github.com/ocaml-community/cppo/archive/v1.6.9.tar.gz",
+    "name": "cppo.1.6.9",
+    "md5": "d23ffe85ac7dc8f0afd1ddf622770d09",
+    "dest": "cache/md5/d2",
+    "dest-filename": "d23ffe85ac7dc8f0afd1ddf622770d09"
+  }
+]
