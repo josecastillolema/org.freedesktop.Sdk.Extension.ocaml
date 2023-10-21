@@ -64,27 +64,18 @@ modules:
     post-install:
       - opam --version
       - opam-2.2a --version
-
+      
   - name: ocaml
-    buildsystem: simple
+    buildsystem: autotools
+    build-options:
+      prefix: ${FLATPAK_DEST}
     sources:     
       - type: git
-        branch: master
-        url: https://github.com/ocaml/opam-repository
-      - type: archive
-        url: https://github.com/ocaml/ocaml/archive/5.0.0.tar.gz
+        branch: 5.0
+        url: https://github.com/ocaml/ocaml
         dest: switch
         sha256: 72fa3d0ba19b82fcb9e6c62e0090b9d22e5905c4be0f94faf56904a9377a9e5b
-    build-commands:
-      - mv switch ${FLATPAK_DEST}
-      - opam init -y --bare --disable-sandboxing .
-      - opam switch create -y --deps-only ${FLATPAK_DEST}/switch
-      - opam pin -y ${FLATPAK_DEST}/switch
     post-install:
-      - opam list
-      - opam switch list
-      - opam switch invariant
-      - opam repo list
       - ocaml --version
 
   - name: dune
@@ -92,7 +83,7 @@ modules:
     sources:     
       - sources/dune.json
       - type: git
-        branch: main
+        branch: 3.11
         url: https://github.com/ocaml/dune
     build-commands:
       - make release
