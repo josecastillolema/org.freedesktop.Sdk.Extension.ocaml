@@ -71,7 +71,7 @@ modules:
       prefix: ${FLATPAK_DEST}
     sources:     
       - type: git
-        branch: 5.0
+        branch: '5.0'
         url: https://github.com/ocaml/ocaml
     post-install:
       - ocaml --version
@@ -81,7 +81,7 @@ modules:
     sources:     
       - sources/dune.json
       - type: git
-        branch: 3.11
+        branch: '3.11'
         url: https://github.com/ocaml/dune
     build-commands:
       - make release
