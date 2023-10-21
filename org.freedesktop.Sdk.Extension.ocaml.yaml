@@ -73,8 +73,6 @@ modules:
       - type: git
         branch: 5.0
         url: https://github.com/ocaml/ocaml
-        dest: switch
-        sha256: 72fa3d0ba19b82fcb9e6c62e0090b9d22e5905c4be0f94faf56904a9377a9e5b
     post-install:
       - ocaml --version
 
