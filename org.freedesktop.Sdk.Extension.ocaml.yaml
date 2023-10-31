@@ -1,5 +1,5 @@
 # flatpak-builder --force-clean build-dir org.freedesktop.Sdk.Extension.ocaml.yaml
-# flatpak-builder --user --install --force-clean build-dir org.freedesktop.Sdk.Extension.ocaml.yaml 
+# flatpak-builder --user --install --force-clean build-dir org.freedesktop.Sdk.Extension.ocaml.yaml
 id: org.freedesktop.Sdk.Extension.ocaml
 branch: '22.08'
 runtime: org.freedesktop.Sdk
@@ -9,13 +9,7 @@ runtime-version: '22.08'
 separate-locales: false
 appstream-compose: false
 build-options:
-  append-path: /usr/lib/sdk/ocaml/bin:/usr/lib/sdk/ocaml/switch/_opam/bin
-  env:
-    CAML_LD_LIBRARY_PATH: /usr/lib/sdk/ocaml/switch/_opam/lib/stublibs:/usr/lib/sdk/ocaml/switch/_opam/lib/ocaml/stublibs:/usr/lib/sdk/ocaml/switch/_opam/lib/ocaml
-    OCAML_TOPLEVEL_PATH: /usr/lib/sdk/ocaml/switch/_opam/lib/toplevel
-    OPAMROOT: /usr/lib/sdk/ocaml
-    OPAMSWITCH: /usr/lib/sdk/ocaml/switch
-    OPAM_SWITCH_PREFIX: /usr/lib/sdk/ocaml/switch/_opam
+  append-path: /usr/lib/sdk/ocaml/bin
 
 modules:
   - name: bwrap
@@ -27,7 +21,7 @@ modules:
         branch: main
         url: https://github.com/containers/bubblewrap
     post-install:
-      - bwrap --version 
+      - bwrap --version
 
   - name: rsync
     buildsystem: autotools
@@ -54,9 +48,9 @@ modules:
       - type: file
         dest-filename: opam-2.2a
         only-arches:
-          - x86_64     
+          - x86_64
         url: https://github.com/ocaml/opam/releases/download/2.2.0-alpha2/opam-2.2.0-alpha2-x86_64-linux
-        sha256: ab69dec6a66e1c0afac04252355f3ceac28d5005584f1ab87cc2734e269656f2      
+        sha256: ab69dec6a66e1c0afac04252355f3ceac28d5005584f1ab87cc2734e269656f2
     build-commands:
       - chmod +x opam
       - chmod +x opam-2.2a
@@ -64,12 +58,12 @@ modules:
     post-install:
       - opam --version
       - opam-2.2a --version
-      
+
   - name: ocaml
     buildsystem: autotools
     build-options:
       prefix: ${FLATPAK_DEST}
-    sources:     
+    sources:
       - type: git
         branch: '5.0'
         url: https://github.com/ocaml/ocaml
@@ -78,14 +72,13 @@ modules:
 
   - name: dune
     buildsystem: simple
-    sources:     
-      - sources/dune.json
+    sources:
       - type: git
         branch: '3.11'
         url: https://github.com/ocaml/dune
     build-commands:
       - make release
-      - make install
+      - PREFIX=${FLATPAK_DEST} make install
     post-install:
       - dune --version
 
@@ -93,8 +86,7 @@ modules:
     sources:
       - type: script
         commands:
-          - export PATH=$PATH:/usr/lib/sdk/ocaml/default/bin:/usr/lib/sdk/ocaml/bin
-          - eval $(opam env --root=/usr/lib/sdk/ocaml --switch /usr/lib/sdk/ocaml/switch --set-root --set-switch)
+          - export PATH=$PATH:/usr/lib/sdk/ocaml/bin
         dest-filename: enable.sh
     buildsystem: simple
     build-commands:
