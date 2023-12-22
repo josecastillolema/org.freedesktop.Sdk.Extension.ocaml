@@ -64,18 +64,18 @@ modules:
     build-options:
       prefix: ${FLATPAK_DEST}
     sources:
-      - type: git
-        branch: '5.0'
-        url: https://github.com/ocaml/ocaml
+      - type: archive
+        url: https://github.com/ocaml/ocaml/archive/refs/tags/5.0.0.tar.gz
+        sha256: 72fa3d0ba19b82fcb9e6c62e0090b9d22e5905c4be0f94faf56904a9377a9e5b
     post-install:
       - ocaml --version
 
   - name: dune
     buildsystem: simple
     sources:
-      - type: git
-        branch: '3.11'
-        url: https://github.com/ocaml/dune
+      - type: archive
+        url: https://github.com/ocaml/dune/archive/refs/tags/3.12.1.tar.gz
+        sha256: 95f7f173bd0265a796600051c79d5f8cd51673a8896608411debd90ca4e15d75
     build-commands:
       - make release
       - PREFIX=${FLATPAK_DEST} make install

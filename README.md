@@ -48,12 +48,12 @@ To use the SDK with your favourite editor:
 ```
 $ sudo flatpak override --env=FLATPAK_ENABLE_SDK_EXT=ocaml com.visualstudio.code
 $ sudo flatpak override --env=FLATPAK_ENABLE_SDK_EXT=ocaml org.gnu.emacs
+$ sudo flatpak override --env=FLATPAK_ENABLE_SDK_EXT=ocaml io.neovim.nvim
 ```
 
 or just use `FLATPAK_ENABLE_SDK_EXT=*` to load every SDK available in your system:
 ```
 $ sudo flatpak override --env=FLATPAK_ENABLE_SDK_EXT=* com.visualstudio.code
-$ sudo flatpak override --env=FLATPAK_ENABLE_SDK_EXT=* org.gnu.emacs
 ```
 
 When running your editor you should see something like this, i.e.:
