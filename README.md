@@ -2,8 +2,7 @@
 
 This extension contains various components of the [OCaml](https://ocaml.org/) stable toolchain.
 
-The [OCaml Platform Tools](https://ocaml.org/docs/platform), which includes the [Dune build system](https://dune.build/), complete the OCaml development environment and provide a nice out of the box developer experience (`dune dune-release merlin ocaml-lsp-server ocamlformat ocp-indent utop`).
-
+Includes the [Dune build system](https://dune.build/) and the OCaml Package Manager [opam](https://opam.ocaml.org/).
 ## Create Flatpak OCaml applications
 
 Several examples on how to Flatpak OCaml applications leveraging this SDK can be found [here](https://github.com/josecastillolema/flatpak-ocaml-examples).
