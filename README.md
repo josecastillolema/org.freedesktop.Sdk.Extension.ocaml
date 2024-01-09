@@ -1,4 +1,4 @@
-> This repository has been permanently moved to [flathub/org.freedesktop.Sdk.Extension.ocaml](https://github.com/flathub/org.freedesktop.Sdk.Extension.ocaml)
+> This repository has been permanently transfered to [flathub/org.freedesktop.Sdk.Extension.ocaml](https://github.com/flathub/org.freedesktop.Sdk.Extension.ocaml)
 
 # SDK Extension for OCaml stable
 
