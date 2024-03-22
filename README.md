@@ -18,7 +18,7 @@ $ source /usr/lib/sdk/ocaml/enable.sh
 
 ### Initializing the Environment
 
-In order to interactivelly install [OCaml Package Manager (opam)](https://opam.ocaml.org/) packages in a Flatpak environmment you will need to inicialize a new environment:
+In order to interactivelly install [OCaml Package Manager (opam)](https://opam.ocaml.org/) packages in a Flatpak environmment you will need to initialize a new environment:
 ```
 $ opam init --disable-sandboxing --no-setup --root $XDG_DATA_HOME/ocaml
 ```
