@@ -1,11 +1,11 @@
 # flatpak-builder --force-clean build-dir org.freedesktop.Sdk.Extension.ocaml.yaml
 # flatpak-builder --user --install --force-clean build-dir org.freedesktop.Sdk.Extension.ocaml.yaml
 id: org.freedesktop.Sdk.Extension.ocaml
-branch: '23.08'
+branch: '24.08'
 runtime: org.freedesktop.Sdk
 build-extension: true
 sdk: org.freedesktop.Sdk
-runtime-version: '23.08'
+runtime-version: '24.08'
 separate-locales: false
 appstream-compose: false
 build-options:
@@ -80,13 +80,3 @@ modules:
     buildsystem: simple
     build-commands:
       - cp enable.sh ${FLATPAK_DEST}
-
-  - name: appdata
-    buildsystem: simple
-    build-commands:
-      - install -Dm644 org.freedesktop.Sdk.Extension.ocaml.appdata.xml -t ${FLATPAK_DEST}/share/appdata
-      - appstream-compose  --basename=${FLATPAK_ID} --prefix=${FLATPAK_DEST}
-        --origin=flatpak ${FLATPAK_ID}
-    sources:
-      - type: file
-        path: org.freedesktop.Sdk.Extension.ocaml.appdata.xml
