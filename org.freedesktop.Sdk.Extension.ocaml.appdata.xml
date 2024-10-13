@@ -8,6 +8,6 @@
   <url type="homepage">https://ocaml.org/</url>
   <url type="bugtracker">https://github.com/ocaml/ocaml/issues</url>
    <releases>
-        <release version="5.0.0" date="2022-12-16" />
+        <release version="5.2.0" date="2024-05-13" />
     </releases>
 </component>
