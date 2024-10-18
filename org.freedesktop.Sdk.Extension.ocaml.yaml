@@ -67,3 +67,11 @@ modules:
     buildsystem: simple
     build-commands:
       - cp enable.sh ${FLATPAK_DEST}
+
+  - name: appdata
+    buildsystem: simple
+    build-commands:
+      - install -Dm0644 org.freedesktop.Sdk.Extension.ocaml.appdata.xml -t ${FLATPAK_DEST}/share/metainfo
+    sources:
+      - type: file
+        path: org.freedesktop.Sdk.Extension.ocaml.appdata.xml
